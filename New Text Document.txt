@@ -1,0 +1,419 @@
+0 verbose cli path path
+1 info using npm@9.8.0
+2 info using node@v20.5.0
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 7ms
+5 timing config:load:file:path Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:path Completed in 1ms
+10 timing config:load:project Completed in 13ms
+11 timing config:load:file:path Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:path Completed in 3ms
+14 timing config:load:global Completed in 3ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 32ms
+17 timing npm:load:configload Completed in 32ms
+18 timing config:load:flatten Completed in 5ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install
+22 verbose argv "--no-update-notifier" "--no-audit" "--scripts-prepend-node-path" "true" "--ignore-scripts" "install"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+27 timing npm:load:logFile Completed in 21ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 108ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 26 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 487ms
+35 timing idealTree:userRequests Completed in 1ms
+36 silly idealTree buildDeps
+37 silly fetch manifest @vaadin/accordion@24.1.6
+38 http fetch GET 400 repo/npm/@vaadin%2faccordion 189ms (cache skip)
+39 silly fetch manifest @vaadin/app-layout@24.1.6
+40 http fetch GET 400 repo/npm/@vaadin%2fapp-layout 45ms (cache skip)
+41 silly fetch manifest @vaadin/avatar@24.1.6
+42 http fetch GET 400 repo/npm/@vaadin%2favatar 42ms (cache skip)
+43 silly fetch manifest @vaadin/avatar-group@24.1.6
+44 http fetch GET 400 repo/npm/@vaadin%2favatar-group 33ms (cache skip)
+45 silly fetch manifest @vaadin/board@24.1.6
+46 http fetch GET 400 repo/npm/@vaadin%2fboard 30ms (cache skip)
+47 silly fetch manifest @vaadin/bundles@24.1.6
+48 http fetch GET 400 repo/npm/@vaadin%2fbundles 26ms (cache skip)
+49 silly fetch manifest @vaadin/button@24.1.6
+50 http fetch GET 400 repo/npm/@vaadin%2fbutton 22ms (cache skip)
+51 silly fetch manifest @vaadin/charts@24.1.6
+52 http fetch GET 400 repo/npm/@vaadin%2fcharts 22ms (cache skip)
+53 silly fetch manifest @vaadin/checkbox@24.1.6
+54 http fetch GET 400 repo/npm/@vaadin%2fcheckbox 20ms (cache skip)
+55 silly fetch manifest @vaadin/checkbox-group@24.1.6
+56 http fetch GET 400 repo/npm/@vaadin%2fcheckbox-group 23ms (cache skip)
+57 silly fetch manifest @vaadin/combo-box@24.1.6
+58 http fetch GET 400 repo/npm/@vaadin%2fcombo-box 30ms (cache skip)
+59 silly fetch manifest @vaadin/common-frontend@0.0.18
+60 http fetch GET 400 repo/npm/@vaadin%2fcommon-frontend 23ms (cache skip)
+61 silly fetch manifest @vaadin/confirm-dialog@24.1.6
+62 http fetch GET 400 repo/npm/@vaadin%2fconfirm-dialog 44ms (cache skip)
+63 silly fetch manifest @vaadin/context-menu@24.1.6
+64 http fetch GET 400 repo/npm/@vaadin%2fcontext-menu 24ms (cache skip)
+65 silly fetch manifest @vaadin/cookie-consent@24.1.6
+66 http fetch GET 400 repo/npm/@vaadin%2fcookie-consent 27ms (cache skip)
+67 silly fetch manifest @vaadin/crud@24.1.6
+68 http fetch GET 400 repo/npm/@vaadin%2fcrud 21ms (cache skip)
+69 silly fetch manifest @vaadin/custom-field@24.1.6
+70 http fetch GET 400 repo/npm/@vaadin%2fcustom-field 21ms (cache skip)
+71 silly fetch manifest @vaadin/date-picker@24.1.6
+72 http fetch GET 400 repo/npm/@vaadin%2fdate-picker 21ms (cache skip)
+73 silly fetch manifest @vaadin/date-time-picker@24.1.6
+74 http fetch GET 400 repo/npm/@vaadin%2fdate-time-picker 21ms (cache skip)
+75 silly fetch manifest @vaadin/details@24.1.6
+76 http fetch GET 400 repo/npm/@vaadin%2fdetails 42ms (cache skip)
+77 silly fetch manifest @vaadin/dialog@24.1.6
+78 http fetch GET 400 repo/npm/@vaadin%2fdialog 40ms (cache skip)
+79 silly fetch manifest @vaadin/email-field@24.1.6
+80 http fetch GET 400 repo/npm/@vaadin%2femail-field 34ms (cache skip)
+81 silly fetch manifest @vaadin/field-highlighter@24.1.6
+82 http fetch GET 400 repo/npm/@vaadin%2ffield-highlighter 24ms (cache skip)
+83 silly fetch manifest @vaadin/form-layout@24.1.6
+84 http fetch GET 400 repo/npm/@vaadin%2fform-layout 25ms (cache skip)
+85 silly fetch manifest @vaadin/grid@24.1.6
+86 http fetch GET 400 repo/npm/@vaadin%2fgrid 22ms (cache skip)
+87 silly fetch manifest @vaadin/grid-pro@24.1.6
+88 http fetch GET 400 repo/npm/@vaadin%2fgrid-pro 27ms (cache skip)
+89 silly fetch manifest @vaadin/horizontal-layout@24.1.6
+90 http fetch GET 400 repo/npm/@vaadin%2fhorizontal-layout 26ms (cache skip)
+91 silly fetch manifest @vaadin/icon@24.1.6
+92 http fetch GET 400 repo/npm/@vaadin%2ficon 38ms (cache skip)
+93 silly fetch manifest @vaadin/icons@24.1.6
+94 http fetch GET 400 repo/npm/@vaadin%2ficons 34ms (cache skip)
+95 silly fetch manifest @vaadin/integer-field@24.1.6
+96 http fetch GET 400 repo/npm/@vaadin%2finteger-field 24ms (cache skip)
+97 silly fetch manifest @vaadin/item@24.1.6
+98 http fetch GET 400 repo/npm/@vaadin%2fitem 32ms (cache skip)
+99 silly fetch manifest @vaadin/list-box@24.1.6
+100 http fetch GET 400 repo/npm/@vaadin%2flist-box 25ms (cache skip)
+101 silly fetch manifest @vaadin/login@24.1.6
+102 http fetch GET 400 repo/npm/@vaadin%2flogin 26ms (cache skip)
+103 silly fetch manifest @vaadin/map@24.1.6
+104 http fetch GET 400 repo/npm/@vaadin%2fmap 22ms (cache skip)
+105 silly fetch manifest @vaadin/menu-bar@24.1.6
+106 http fetch GET 400 repo/npm/@vaadin%2fmenu-bar 21ms (cache skip)
+107 silly fetch manifest @vaadin/message-input@24.1.6
+108 http fetch GET 400 repo/npm/@vaadin%2fmessage-input 29ms (cache skip)
+109 silly fetch manifest @vaadin/message-list@24.1.6
+110 http fetch GET 400 repo/npm/@vaadin%2fmessage-list 34ms (cache skip)
+111 silly fetch manifest @vaadin/multi-select-combo-box@24.1.6
+112 http fetch GET 400 repo/npm/@vaadin%2fmulti-select-combo-box 26ms (cache skip)
+113 silly fetch manifest @vaadin/notification@24.1.6
+114 http fetch GET 400 repo/npm/@vaadin%2fnotification 21ms (cache skip)
+115 silly fetch manifest @vaadin/number-field@24.1.6
+116 http fetch GET 400 repo/npm/@vaadin%2fnumber-field 30ms (cache skip)
+117 silly fetch manifest @vaadin/password-field@24.1.6
+118 http fetch GET 400 repo/npm/@vaadin%2fpassword-field 21ms (cache skip)
+119 silly fetch manifest @vaadin/polymer-legacy-adapter@24.1.6
+120 http fetch GET 400 repo/npm/@vaadin%2fpolymer-legacy-adapter 21ms (cache skip)
+121 silly fetch manifest @vaadin/progress-bar@24.1.6
+122 http fetch GET 400 repo/npm/@vaadin%2fprogress-bar 22ms (cache skip)
+123 silly fetch manifest @vaadin/radio-group@24.1.6
+124 http fetch GET 400 repo/npm/@vaadin%2fradio-group 21ms (cache skip)
+125 silly fetch manifest @vaadin/rich-text-editor@24.1.6
+126 http fetch GET 400 repo/npm/@vaadin%2frich-text-editor 27ms (cache skip)
+127 silly fetch manifest @vaadin/scroller@24.1.6
+128 http fetch GET 400 repo/npm/@vaadin%2fscroller 25ms (cache skip)
+129 silly fetch manifest @vaadin/select@24.1.6
+130 http fetch GET 400 repo/npm/@vaadin%2fselect 29ms (cache skip)
+131 silly fetch manifest @vaadin/side-nav@24.1.6
+132 http fetch GET 400 repo/npm/@vaadin%2fside-nav 21ms (cache skip)
+133 silly fetch manifest @vaadin/split-layout@24.1.6
+134 http fetch GET 400 repo/npm/@vaadin%2fsplit-layout 19ms (cache skip)
+135 silly fetch manifest @vaadin/tabs@24.1.6
+136 http fetch GET 400 repo/npm/@vaadin%2ftabs 20ms (cache skip)
+137 silly fetch manifest @vaadin/tabsheet@24.1.6
+138 http fetch GET 400 repo/npm/@vaadin%2ftabsheet 23ms (cache skip)
+139 silly fetch manifest @vaadin/text-area@24.1.6
+140 http fetch GET 400 repo/npm/@vaadin%2ftext-area 28ms (cache skip)
+141 silly fetch manifest @vaadin/text-field@24.1.6
+142 http fetch GET 400 repo/npm/@vaadin%2ftext-field 24ms (cache skip)
+143 silly fetch manifest @vaadin/time-picker@24.1.6
+144 http fetch GET 400 repo/npm/@vaadin%2ftime-picker 24ms (cache skip)
+145 silly fetch manifest @vaadin/tooltip@24.1.6
+146 http fetch GET 400 repo/npm/@vaadin%2ftooltip 20ms (cache skip)
+147 silly fetch manifest @vaadin/upload@24.1.6
+148 http fetch GET 400 repo/npm/@vaadin%2fupload 19ms (cache skip)
+149 silly fetch manifest @vaadin/vaadin-lumo-styles@24.1.6
+150 http fetch GET 400 repo/npm/@vaadin%2fvaadin-lumo-styles 19ms (cache skip)
+151 silly fetch manifest @vaadin/vaadin-material-styles@24.1.6
+152 http fetch GET 400 repo/npm/@vaadin%2fvaadin-material-styles 23ms (cache skip)
+153 silly fetch manifest @vaadin/vaadin-themable-mixin@24.1.6
+154 http fetch GET 400 repo/npm/@vaadin%2fvaadin-themable-mixin 22ms (cache skip)
+155 silly fetch manifest @vaadin/vertical-layout@24.1.6
+156 http fetch GET 400 repo/npm/@vaadin%2fvertical-layout 23ms (cache skip)
+157 silly fetch manifest @vaadin/virtual-list@24.1.6
+158 http fetch GET 400 repo/npm/@vaadin%2fvirtual-list 21ms (cache skip)
+159 silly fetch manifest lit@2.7.6
+160 http fetch GET 404 repo/npm/lit 22ms (cache skip)
+161 http fetch GET 404 repo/npm/lit 6ms (cache skip)
+162 silly fetch manifest mobile-drag-drop@2.3.0-rc.2
+163 http fetch GET 404 repo/npm/mobile-drag-drop 26ms (cache skip)
+164 http fetch GET 404 repo/npm/mobile-drag-drop 5ms (cache skip)
+165 silly fetch manifest proj4@2.9.0
+166 http fetch GET 404 repo/npm/proj4 15ms (cache skip)
+167 http fetch GET 404 repo/npm/proj4 13ms (cache skip)
+168 silly fetch manifest @rollup/plugin-replace@5.0.2
+169 http fetch GET 400 repo/npm/@rollup%2fplugin-replace 11ms (cache skip)
+170 silly fetch manifest @rollup/pluginutils@5.0.2
+171 http fetch GET 400 repo/npm/@rollup%2fpluginutils 28ms (cache skip)
+172 silly fetch manifest @vitejs/plugin-react@4.0.0
+173 http fetch GET 400 repo/npm/@vitejs%2fplugin-react 21ms (cache skip)
+174 silly fetch manifest async@3.2.2
+175 http fetch GET 404 repo/npm/async 23ms (cache skip)
+176 http fetch GET 404 repo/npm/async 6ms (cache skip)
+177 silly fetch manifest glob@7.2.3
+178 http fetch GET 404 repo/npm/glob 5ms (cache skip)
+179 http fetch GET 404 repo/npm/glob 5ms (cache skip)
+180 silly fetch manifest mkdirp@1.0.4
+181 http fetch GET 404 repo/npm/mkdirp 5ms (cache skip)
+182 http fetch GET 404 repo/npm/mkdirp 4ms (cache skip)
+183 silly fetch manifest rollup-plugin-visualizer@5.9.0
+184 http fetch GET 404 repo/npm/rollup-plugin-visualizer 4ms (cache skip)
+185 http fetch GET 404 repo/npm/rollup-plugin-visualizer 5ms (cache skip)
+186 silly fetch manifest typescript@5.0.4
+187 http fetch GET 404 repo/npm/typescript 19ms (cache skip)
+188 http fetch GET 404 repo/npm/typescript 4ms (cache skip)
+189 silly fetch manifest vite@4.3.9
+190 http fetch GET 404 repo/npm/vite 5ms (cache skip)
+191 http fetch GET 404 repo/npm/vite 4ms (cache skip)
+192 silly fetch manifest vite-plugin-checker@0.5.5
+193 http fetch GET 404 repo/npm/vite-plugin-checker 4ms (cache skip)
+194 http fetch GET 404 repo/npm/vite-plugin-checker 6ms (cache skip)
+195 silly placeDep ROOT @rollup/plugin-replace@ REPLACE for:  want: 5.0.2
+196 silly placeDep ROOT @rollup/pluginutils@ OK for:  want: 5.0.2
+197 silly placeDep ROOT @vaadin/accordion@ REPLACE for:  want: 24.1.6
+198 silly placeDep ROOT @vaadin/app-layout@ REPLACE for:  want: 24.1.6
+199 silly placeDep ROOT @vaadin/avatar@ REPLACE for:  want: 24.1.6
+200 silly placeDep ROOT @vaadin/avatar-group@ REPLACE for:  want: 24.1.6
+201 silly placeDep ROOT @vaadin/board@ REPLACE for:  want: 24.1.6
+202 silly placeDep ROOT @vaadin/bundles@ REPLACE for:  want: 24.1.6
+203 silly placeDep ROOT @vaadin/button@ OK for:  want: 24.1.6
+204 silly placeDep ROOT @vaadin/charts@ OK for:  want: 24.1.6
+205 silly placeDep ROOT @vaadin/checkbox@ OK for:  want: 24.1.6
+206 silly placeDep ROOT @vaadin/checkbox-group@ OK for:  want: 24.1.6
+207 silly placeDep ROOT @vaadin/combo-box@ OK for:  want: 24.1.6
+208 silly placeDep ROOT @vaadin/common-frontend@ REPLACE for:  want: 0.0.18
+209 silly placeDep ROOT @vaadin/confirm-dialog@ OK for:  want: 24.1.6
+210 silly placeDep ROOT @vaadin/context-menu@ OK for:  want: 24.1.6
+211 silly placeDep ROOT @vaadin/cookie-consent@ OK for:  want: 24.1.6
+212 silly placeDep ROOT @vaadin/crud@ OK for:  want: 24.1.6
+213 silly placeDep ROOT @vaadin/custom-field@ OK for:  want: 24.1.6
+214 silly placeDep ROOT @vaadin/date-picker@ OK for:  want: 24.1.6
+215 silly placeDep ROOT @vaadin/date-time-picker@ OK for:  want: 24.1.6
+216 silly placeDep ROOT @vaadin/details@ OK for:  want: 24.1.6
+217 silly placeDep ROOT @vaadin/dialog@ OK for:  want: 24.1.6
+218 silly placeDep ROOT @vaadin/email-field@ OK for:  want: 24.1.6
+219 silly placeDep ROOT @vaadin/field-highlighter@ OK for:  want: 24.1.6
+220 silly placeDep ROOT @vaadin/form-layout@ OK for:  want: 24.1.6
+221 silly placeDep ROOT @vaadin/grid@ OK for:  want: 24.1.6
+222 silly placeDep ROOT @vaadin/grid-pro@ OK for:  want: 24.1.6
+223 silly placeDep ROOT @vaadin/horizontal-layout@ OK for:  want: 24.1.6
+224 silly placeDep ROOT @vaadin/icon@ OK for:  want: 24.1.6
+225 silly placeDep ROOT @vaadin/icons@ OK for:  want: 24.1.6
+226 silly placeDep ROOT @vaadin/integer-field@ OK for:  want: 24.1.6
+227 silly placeDep ROOT @vaadin/item@ OK for:  want: 24.1.6
+228 silly placeDep ROOT @vaadin/list-box@ OK for:  want: 24.1.6
+229 silly placeDep ROOT @vaadin/login@ OK for:  want: 24.1.6
+230 silly placeDep ROOT @vaadin/map@ OK for:  want: 24.1.6
+231 silly placeDep ROOT @vaadin/menu-bar@ OK for:  want: 24.1.6
+232 silly placeDep ROOT @vaadin/message-input@ OK for:  want: 24.1.6
+233 silly placeDep ROOT @vaadin/message-list@ OK for:  want: 24.1.6
+234 silly placeDep ROOT @vaadin/multi-select-combo-box@ OK for:  want: 24.1.6
+235 silly placeDep ROOT @vaadin/notification@ OK for:  want: 24.1.6
+236 silly placeDep ROOT @vaadin/number-field@ OK for:  want: 24.1.6
+237 silly placeDep ROOT @vaadin/password-field@ OK for:  want: 24.1.6
+238 silly placeDep ROOT @vaadin/polymer-legacy-adapter@ OK for:  want: 24.1.6
+239 silly placeDep ROOT @vaadin/progress-bar@ OK for:  want: 24.1.6
+240 silly placeDep ROOT @vaadin/radio-group@ OK for:  want: 24.1.6
+241 silly placeDep ROOT @vaadin/rich-text-editor@ OK for:  want: 24.1.6
+242 silly placeDep ROOT @vaadin/scroller@ OK for:  want: 24.1.6
+243 silly placeDep ROOT @vaadin/select@ OK for:  want: 24.1.6
+244 silly placeDep ROOT @vaadin/side-nav@ OK for:  want: 24.1.6
+245 silly placeDep ROOT @vaadin/split-layout@ OK for:  want: 24.1.6
+246 silly placeDep ROOT @vaadin/tabs@ OK for:  want: 24.1.6
+247 silly placeDep ROOT @vaadin/tabsheet@ OK for:  want: 24.1.6
+248 silly placeDep ROOT @vaadin/text-area@ OK for:  want: 24.1.6
+249 silly placeDep ROOT @vaadin/text-field@ OK for:  want: 24.1.6
+250 silly placeDep ROOT @vaadin/time-picker@ OK for:  want: 24.1.6
+251 silly placeDep ROOT @vaadin/tooltip@ OK for:  want: 24.1.6
+252 silly placeDep ROOT @vaadin/upload@ OK for:  want: 24.1.6
+253 silly placeDep ROOT @vaadin/vaadin-lumo-styles@ OK for:  want: 24.1.6
+254 silly placeDep ROOT @vaadin/vaadin-material-styles@ OK for:  want: 24.1.6
+255 silly placeDep ROOT @vaadin/vaadin-themable-mixin@ OK for:  want: 24.1.6
+256 silly placeDep ROOT @vaadin/vertical-layout@ OK for:  want: 24.1.6
+257 silly placeDep ROOT @vaadin/virtual-list@ OK for:  want: 24.1.6
+258 silly placeDep ROOT @vitejs/plugin-react@ REPLACE for:  want: 4.0.0
+259 silly placeDep ROOT async@ REPLACE for:  want: 3.2.2
+260 silly placeDep ROOT glob@ REPLACE for:  want: 7.2.3
+261 silly placeDep ROOT lit@ OK for:  want: 2.7.6
+262 silly placeDep ROOT mkdirp@ OK for:  want: 1.0.4
+263 silly placeDep ROOT mobile-drag-drop@ OK for:  want: 2.3.0-rc.2
+264 silly placeDep ROOT proj4@ REPLACE for:  want: 2.9.0
+265 silly placeDep ROOT rollup-plugin-visualizer@ REPLACE for:  want: 5.9.0
+266 silly placeDep ROOT typescript@ REPLACE for:  want: 5.0.4
+267 silly placeDep ROOT vite@ REPLACE for:  want: 4.3.9
+268 silly placeDep ROOT vite-plugin-checker@ REPLACE for:  want: 0.5.5
+269 timing idealTree:#root Completed in 2375ms
+270 timing idealTree:target/plugins/application-theme-plugin Completed in 0ms
+271 timing idealTree:node_modules/@rollup/plugin-replace Completed in 0ms
+272 timing idealTree:node_modules/@rollup/pluginutils Completed in 0ms
+273 timing idealTree:node_modules/@vaadin/a11y-base Completed in 0ms
+274 timing idealTree:node_modules/@vaadin/bundles Completed in 0ms
+275 timing idealTree:node_modules/@vaadin/button Completed in 0ms
+276 timing idealTree:node_modules/@vaadin/charts Completed in 0ms
+277 timing idealTree:node_modules/@vaadin/checkbox Completed in 0ms
+278 timing idealTree:node_modules/@vaadin/checkbox-group Completed in 0ms
+279 timing idealTree:node_modules/@vaadin/combo-box Completed in 0ms
+280 timing idealTree:node_modules/@vaadin/common-frontend Completed in 0ms
+281 timing idealTree:node_modules/@vaadin/component-base Completed in 1ms
+282 timing idealTree:node_modules/@vaadin/confirm-dialog Completed in 0ms
+283 timing idealTree:node_modules/@vaadin/context-menu Completed in 0ms
+284 timing idealTree:node_modules/@vaadin/cookie-consent Completed in 0ms
+285 timing idealTree:node_modules/@vaadin/crud Completed in 0ms
+286 timing idealTree:node_modules/@vaadin/custom-field Completed in 0ms
+287 timing idealTree:node_modules/@vaadin/date-picker Completed in 0ms
+288 timing idealTree:node_modules/@vaadin/date-time-picker Completed in 0ms
+289 timing idealTree:node_modules/@vaadin/details Completed in 0ms
+290 timing idealTree:node_modules/@vaadin/dialog Completed in 0ms
+291 timing idealTree:node_modules/@vaadin/email-field Completed in 0ms
+292 timing idealTree:node_modules/@vaadin/field-base Completed in 0ms
+293 timing idealTree:node_modules/@vaadin/field-highlighter Completed in 0ms
+294 timing idealTree:node_modules/@vaadin/form-layout Completed in 0ms
+295 timing idealTree:node_modules/@vaadin/grid Completed in 0ms
+296 timing idealTree:node_modules/@vaadin/grid-pro Completed in 0ms
+297 timing idealTree:node_modules/@vaadin/horizontal-layout Completed in 0ms
+298 timing idealTree:node_modules/@vaadin/icon Completed in 0ms
+299 timing idealTree:node_modules/@vaadin/icons Completed in 0ms
+300 timing idealTree:node_modules/@vaadin/input-container Completed in 0ms
+301 timing idealTree:node_modules/@vaadin/integer-field Completed in 0ms
+302 timing idealTree:node_modules/@vaadin/item Completed in 0ms
+303 timing idealTree:node_modules/@vaadin/list-box Completed in 0ms
+304 timing idealTree:node_modules/@vaadin/lit-renderer Completed in 0ms
+305 timing idealTree:node_modules/@vaadin/login Completed in 0ms
+306 timing idealTree:node_modules/@vaadin/map Completed in 0ms
+307 timing idealTree:node_modules/@vaadin/menu-bar Completed in 0ms
+308 timing idealTree:node_modules/@vaadin/message-input Completed in 0ms
+309 timing idealTree:node_modules/@vaadin/message-list Completed in 0ms
+310 timing idealTree:node_modules/@vaadin/multi-select-combo-box Completed in 0ms
+311 timing idealTree:node_modules/@vaadin/notification Completed in 0ms
+312 timing idealTree:node_modules/@vaadin/number-field Completed in 0ms
+313 timing idealTree:node_modules/@vaadin/overlay Completed in 0ms
+314 timing idealTree:node_modules/@vaadin/password-field Completed in 0ms
+315 timing idealTree:node_modules/@vaadin/polymer-legacy-adapter Completed in 0ms
+316 timing idealTree:node_modules/@vaadin/progress-bar Completed in 0ms
+317 timing idealTree:node_modules/@vaadin/radio-group Completed in 0ms
+318 timing idealTree:node_modules/@vaadin/rich-text-editor Completed in 0ms
+319 timing idealTree:node_modules/@vaadin/scroller Completed in 0ms
+320 timing idealTree:node_modules/@vaadin/select Completed in 0ms
+321 timing idealTree:node_modules/@vaadin/side-nav Completed in 0ms
+322 timing idealTree:node_modules/@vaadin/split-layout Completed in 0ms
+323 timing idealTree:node_modules/@vaadin/tabs Completed in 0ms
+324 timing idealTree:node_modules/@vaadin/tabsheet Completed in 0ms
+325 timing idealTree:node_modules/@vaadin/text-area Completed in 0ms
+326 timing idealTree:node_modules/@vaadin/text-field Completed in 0ms
+327 timing idealTree:node_modules/@vaadin/time-picker Completed in 0ms
+328 timing idealTree:node_modules/@vaadin/tooltip Completed in 0ms
+329 timing idealTree:node_modules/@vaadin/upload Completed in 0ms
+330 timing idealTree:node_modules/@vaadin/vaadin-lumo-styles Completed in 0ms
+331 timing idealTree:node_modules/@vaadin/vaadin-material-styles Completed in 0ms
+332 timing idealTree:node_modules/@vaadin/vaadin-themable-mixin Completed in 0ms
+333 timing idealTree:node_modules/@vaadin/vertical-layout Completed in 0ms
+334 timing idealTree:node_modules/@vaadin/virtual-list Completed in 0ms
+335 timing idealTree:node_modules/@vitejs/plugin-react Completed in 0ms
+336 silly fetch manifest vite@^4 || ^5
+337 http fetch GET 404 repo/npm/vite 5ms (cache skip)
+338 http fetch GET 404 repo/npm/vite 5ms (cache skip)
+339 silly placeDep ROOT vite@ OK for: @vitejs/plugin-react-swc@3.5.0 want: ^4 || ^5
+340 warn ERESOLVE overriding peer dependency {
+340 warn ERESOLVE   code: 'ERESOLVE',
+340 warn ERESOLVE   edge: {
+340 warn ERESOLVE     type: 'peer',
+340 warn ERESOLVE     name: 'vite',
+340 warn ERESOLVE     spec: '^4 || ^5',
+340 warn ERESOLVE     error: 'INVALID',
+340 warn ERESOLVE     from: {
+340 warn ERESOLVE       name: '@vitejs/plugin-react-swc',
+340 warn ERESOLVE       version: '3.5.0',
+340 warn ERESOLVE       location: 'node_modules/@vitejs/plugin-react-swc',
+340 warn ERESOLVE       isWorkspace: false,
+340 warn ERESOLVE       dependents: []
+340 warn ERESOLVE     }
+340 warn ERESOLVE   },
+340 warn ERESOLVE   dep: {
+340 warn ERESOLVE     name: 'vite',
+340 warn ERESOLVE     version: undefined,
+340 warn ERESOLVE     errors: [ [HttpErrorGeneral] ],
+340 warn ERESOLVE     package: {},
+340 warn ERESOLVE     whileInstalling: {
+340 warn ERESOLVE       name: '@vitejs/plugin-react-swc',
+340 warn ERESOLVE       version: '3.5.0',
+340 warn ERESOLVE       path: 'path'
+340 warn ERESOLVE     },
+340 warn ERESOLVE     location: 'node_modules/vite',
+340 warn ERESOLVE     isWorkspace: false,
+340 warn ERESOLVE     dependents: [ [Object] ]
+340 warn ERESOLVE   },
+340 warn ERESOLVE   force: false,
+340 warn ERESOLVE   isMine: false,
+340 warn ERESOLVE   strictPeerDeps: false,
+340 warn ERESOLVE   current: {
+340 warn ERESOLVE     name: 'vite',
+340 warn ERESOLVE     version: undefined,
+340 warn ERESOLVE     errors: [ [HttpErrorGeneral] ],
+340 warn ERESOLVE     package: {},
+340 warn ERESOLVE     location: 'node_modules/vite',
+340 warn ERESOLVE     isWorkspace: false,
+340 warn ERESOLVE     dependents: [ [Object] ]
+340 warn ERESOLVE   }
+340 warn ERESOLVE }
+341 timing idealTree:node_modules/@vitejs/plugin-react-swc Completed in 22ms
+342 timing idealTree:node_modules/async Completed in 0ms
+343 timing idealTree:node_modules/glob Completed in 0ms
+344 timing idealTree:node_modules/lit Completed in 0ms
+345 timing idealTree:node_modules/mkdirp Completed in 0ms
+346 timing idealTree:node_modules/mobile-drag-drop Completed in 0ms
+347 timing idealTree:node_modules/proj4 Completed in 0ms
+348 timing idealTree:node_modules/rollup-plugin-visualizer Completed in 0ms
+349 timing idealTree:node_modules/vite Completed in 0ms
+350 timing idealTree:node_modules/vite-plugin-checker Completed in 0ms
+351 timing idealTree:buildDeps Completed in 2405ms
+352 timing idealTree:fixDepFlags Completed in 6ms
+353 timing idealTree Completed in 2904ms
+354 timing command:install Completed in 2938ms
+355 verbose stack HttpErrorGeneral: 400 Bad Request - GET repo/npm/@rollup%2fplugin-replace - Non URL-safe name: @rollup%2fplugin-replace
+355 verbose stack     at path
+355 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+355 verbose stack     at async RegistryFetcher.packument (path)
+355 verbose stack     at async RegistryFetcher.manifest (path)
+355 verbose stack     at async #nodeFromEdge (path)
+355 verbose stack     at async #buildDepStep (path)
+355 verbose stack     at async Arborist.buildIdealTree (path)
+355 verbose stack     at async Promise.all (index 1)
+355 verbose stack     at async Arborist.reify (path)
+355 verbose stack     at async Install.exec (path)
+356 verbose statusCode 400
+357 verbose pkgid @rollup/plugin-replace@5.0.2
+358 verbose cwd path
+359 verbose Windows_NT 10.0.19044
+360 verbose node v20.5.0
+361 verbose npm  v9.8.0
+362 error code E400
+363 error 400 Bad Request - GET repo/npm/@rollup%2fplugin-replace - Non URL-safe name: @rollup%2fplugin-replace
+364 verbose exit 1
+365 timing npm Completed in 3850ms
+366 verbose unfinished npm timer reify 1710323362078
+367 verbose unfinished npm timer reify:loadTrees 1710323362106
+368 verbose code 1
+369 error A complete log of this run can be found in: path
